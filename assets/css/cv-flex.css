@@ -1,0 +1,162 @@
+* {
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    width: 100%;
+    background-color: #D9AFD9;
+    background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+    font-weight: bold;
+}
+
+b, strong{
+    font-weight: bold;
+}
+
+i, em {
+    font-style: italic;
+}
+
+u{
+    text-decoration: underline;
+}
+
+input, select, textarea, button{
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+    line-height: inherit;
+}
+.contents{
+    display: flex;
+    max-width: 880px;
+    min-height: 800px;
+    background-color: #fff;
+    margin: 0 auto;
+    margin-top: 25px;
+    box-shadow: 24px 20px 7px rgb(110, 110, 105);
+    margin-bottom: 40px;
+}
+.sidebar{
+    max-width: 250px;
+    background-color: #85FFBD;
+    background-image: linear-gradient(45deg, #53714f 0%, #ff7d7d 100%);
+}
+p{
+    font-size: 1.4rem;
+    padding: 0px 15px;
+    text-align: justify;    
+}
+.sidebar_item img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+}
+.name,.Career,.skill,.interest_heading{
+    font-size: 2.5rem;
+    color:transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    background-color: #21D4FD;
+    background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+    margin-top: 15px;
+    text-align: center;
+    font-weight: bold;
+}
+.information{
+    margin: 20px 0 0 15px;
+    font-size: 1.6rem;
+}
+.information_1{
+    font-size: 1.4rem;
+    display: flex;
+    gap: 9px;
+    margin-bottom: 15px;
+}
+.main-content{
+    margin: 0px 25px;
+}
+h1,.title{
+    float: left;
+    width: 100%;
+}
+h1{ 
+    text-align: center;
+    margin-top: 30px;
+    font-size: 3rem;
+}
+h2{
+    font-size: 1.4rem;
+    margin-bottom: 8px;
+}
+.title{
+    margin-top: 9px;
+    margin-bottom: 24px;
+    text-align: center;
+    font-size: 1.3rem;
+}
+.span{
+    width: 100%;
+    border: 1px solid #000;
+    margin-bottom: 11px;
+}
+.jod-present, .jod-date{
+    display:  flex;
+}
+.jod-present .title-date , .jod-date .title-date{
+    text-align: end;
+    width: 100%;
+}
+.jod-date p , .jod-present p , .jod-date-end{
+    font-weight: bold;
+    font-size: 1.3rem;
+    margin-bottom: 15px;
+    width: 100%;
+}
+.item ul li, .title-end{
+    font-size: 1.2rem;
+    text-align: justify;
+    margin-left: 19.1px;
+    line-height: 1.5;
+    letter-spacing: 0px;
+}
+.jod-date{
+    margin-top: 16px;
+}
+.jod-date-end {
+    margin-top: 15px;
+    margin-bottom: 7px;
+}
+.title-end{
+    margin-left: 0;
+    margin-bottom: 30px;
+}
+.title-end strong{
+    font-size: 1.3rem;
+}
+.skills{
+    margin-top: 10px;
+}
+.skill_title{
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+    text-align: center;
+    line-height: 1.6;
+}
+.interest_list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-left: 30px;
+    font-size: 1.4rem;
+}

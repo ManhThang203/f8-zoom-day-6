@@ -19,14 +19,39 @@ b, strong{
 i, em {
     font-style: italic;
 }
-
-ul li{
-    text-decoration: underline;
+ol, ul {
+	list-style: none;
 }
-
+a{
+    text-decoration: none;
+    color: inherit;
+}
 input, select, textarea, button,ul, li{
     font-family: inherit;
     font-size: inherit;
     font-weight: inherit;
     line-height: inherit;
+}
+.contents{
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+
+}
+.list{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 30px 10px;
+}
+.list li a{
+    font-size: 2rem;
+    font-weight: 500;
+    padding: 10px;
+}
+.list li a:hover{
+    color: #fff;
+    background-color: #8BC6EC;
+    background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
