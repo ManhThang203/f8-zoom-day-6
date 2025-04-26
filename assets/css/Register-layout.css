@@ -39,7 +39,7 @@ img{
     width: 600px;
     height: 670px;
     object-fit: cover;
-    border-radius: 12px;
+    border-radius: 12px 0 0 12px;
 }
 form {
     display: flex    ;
@@ -51,7 +51,7 @@ form {
     height: 670px;
     background: #fff;
     padding: 30px;
-    border-radius: 12px;
+    border-radius: 0 12px 12px 0;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
@@ -171,7 +171,6 @@ button {
 .email:invalid{
     border: 2px solid red;
 }
-
 span::after {
     content: " *";
     color: red;
