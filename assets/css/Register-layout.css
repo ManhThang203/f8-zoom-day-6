@@ -54,7 +54,9 @@ form {
     border-radius: 0 12px 12px 0;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
-
+form:focus-within {
+    box-shadow: 0 0 30px rgba(0,0,0,0.3);
+}
 .form label {
     display: block;
     margin-bottom: 20px;
